@@ -7,7 +7,7 @@ body {
 
 .top {
     margin-top: 5em;
-    margin-bottom: 7em;
+    margin-bottom: 3em;
 }
 
 #myVideo {
@@ -71,6 +71,30 @@ a {
 
 .foot {
     margin: 3em;
+}
+
+.text {
+    text-shadow: 0 0 0.1em hsl(0 0% 100% /0.5), 0 0 0.5em currentColor;
+    transition: all 0.3s;
+    padding-bottom: 1em;
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+.countdown1 {
+    text-shadow: 0 0 0.1em hsl(0 0% 100% /0.5), 0 0 0.5em currentColor;
+    font-size: 1.5em;
+    padding-bottom: 1em;
+    z-index: 1000;
+    color: #ffffff;
+}
+
+.countdown2 {
+    text-shadow: 0 0 0.1em hsl(0 0% 100% /0.5), 0 0 0.5em currentColor;
+    font-size: 1.5em;
+    padding-bottom: 1em;
+    z-index: 1000;
+    color: #ffffff;
 }
 
 @media (max-width:400px) {
